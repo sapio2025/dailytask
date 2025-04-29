@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSINESS RISK</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">FRAUD TEAM</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="task.html">Tasks</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div>
+        <h1>Daily Tasks List</h1> 
+    </div>
+
+    <section>
+<h4>Wholesale Roaming Cost (TAPIN) per IMSI</h4>
+Wholesale Roaming Cost (TAPIN) per IMSI
+    This is a daily TAPIN alert per IMSI sent by Syniverse Analyzer for Wholesale Roaming Cost for 
+    each Digicel Market.<br> It is concerning Haiti Digicel customers who are roaming into different 
+    Network and make Data usage, SMS or Voice without enough credit or without credit. Below 
+    you will see scripts and different steps for this investigation.<br><br>
+    <a href="pdf/Wholesale Roaming Cost (TAPIN) Investigation.pdf" target="_blank" rel="noopener noreferrer">
+    View PDF
+    </a>
+    </section>
+
+    <section>
+<h4>NRT+ Fraud Alert(IMSI)</h4>
+This is an alert received from NextGen that mentions IMSIs are making Suspicious call (hot 
+    numbertraffic (voice, data, sms) to some destination while roaming into another Network.<br><br>
+    <a href="pdf/Fraud Alert IMSI - Suspicious calls (hot number).pdf" target="_blank" rel="noopener noreferrer">
+    View PDF
+    </a>
+</section>
+
+<section>
+    <h4>WANGIRI_SPAM CChecking</h4>
+    Hourly Wangiri/SPAM check<br>
+        This is a hourly basis check for Wangiri fraud.<br> Wangiri fraud, also known as the Wangiri scam
+        or one-ring scam, is a type of telephone fraud where scammers trick individuals into calling 
+        back high rate destination numbers, resulting in charges to the victim.<br><br>
+        <a href="pdf/WANGIRI_SPAM CChecking.pdf" target="_blank" rel="noopener noreferrer">
+        View PDF
+        </a>
+  </section>
+
+<section>
+    <h4>IRSF CChecking</h4>
+    IRSF check<br>
+        This is a hourly basis check for IRSF.<br> IRSF, or International Revenue Share Fraud, is a telecom 
+        scam where criminals exploit systems to drive calls to their premium-rate numbers, illegally 
+        profiting from the inflated call charges.<br><br>
+        <a href="pdf/IRSF CChecking.pdf" target="_blank" rel="noopener noreferrer">
+        View PDF
+        </a>
+
+      </section>
+
+
+<section>
+    <h4>E1 Traffic Checking</h4>
+    This check can be made when we observe increase on E1 Customer Traffic or when the customer ask to reset his limit after he used all his credits. Below are the scripts used to check customer traffic and the respective steps for the analysis.<br><br>
+    <a href="pdf/E1 Traffic Checking.pdf" target="_blank" rel="noopener noreferrer">
+        View PDF
+      </a>
+  </section>
+
+<section>
+    <h4>DAILY ROAMING_VOICE_DATA_SMS_REPORT</h4><br>
+    This daily report is done to monitor VOICE, DATA and SMS roaming traffic from CCN and the 
+High Usage Roaming from RAMs DB on BRISK.<br> Below are respectively the scripts for VOICE, 
+DATA and SMS Roaming from CCN and the High Usage Roaming from RAMs DB.<br><br>
+    <a href="pdf/DAILY ROAMING_VOICE_DATA_SMS_REPORT.pdf" target="_blank" rel="noopener noreferrer">
+        View PDF
+      </a>
+    </section>
+
+  <section>
+    <h4>DAILY RLYH USAGE AND SUBS REPORT</h4><br>
+    This is a daily basis report for RLYH (Roam Like Your Home) traffic and Subscriptions.<br><br>
+    <a href="pdf/Daily RLYH Usage Report.pdf" target="_blank" rel="noopener noreferrer">
+        View PDF
+      </a>
+    </section>
+
+  <section>
+<h4>DAILY OUTGOING SMS UK REPORT</h4><br>
+This is a daily report to monitor SMS traffic from our Network to UK.<br> In the below script used 
+for this report, we check the numbers of SMS and their CHARGE.<br> Then we calculate the COST, 
+REVENUE and the MARGIN.<br> So the critical point of this report is the MARGIN which is the 
+difference between the REVENUE and the COST (REVENUE – COST).<br> If this value is negative 
+that means the REVENUE was less than the COST, so we have to investigate to see if the SMS 
+were well charged.<br><br>
+<a href="pdf/DAILY OUTGOING SMS UK REPORT.pdf" target="_blank" rel="noopener noreferrer">
+    View PDF
+  </a>
+</section>
+
+<section>
+<h4>DAILY Manual Check</h4><br>
+This report is done to detect any fraudulent activity or bypass missed by normal running 
+processes.<br><br> 
+<a href="pdf/DAILY MANUAL CHECK.pdf" target="_blank" rel="noopener noreferrer">
+    View PDF
+  </a>
+</section>
+
+<section>
+<h4>DAILY INBOUND ROAMERS REPORT (OFFNET_ONNET)</h4><br>
+This report is done to monitor two type of daily voice traffic to detect bypass activity: First, 
+inbound OFFNET roamers traffic that means foreign subscribers that are roaming on NATCOM 
+Network and calling our subscribers.<br> Secondly, inbound ONNET roamers traffic that means 
+foreign subscribers that are roaming on our Network and making suspicious calls.<br> Below are 
+respectively the scripts for Inbound OFFNET roamers usage and inbound ONNET roamers 
+usage.<br><br>
+<a href="pdf/DAILY INBOUND ROAMERS REPORT (OFFNET_ONNET).pdf" target="_blank" rel="noopener noreferrer">
+    View PDF
+  </a>
+</section>
+
+<section>
+<h4>DAILY DIGICEL E1 CUSTOMER REPORT</h4><br>
+This report is done to monitor all Digicel E1s traffic to prevent any fraudulent activity or 
+bypass by checking daily Digicel E1s traffic summary and their diversity.<br><br>
+<a href="pdf/DAILY DIGICEL E1 CUSTOMER REPORT.pdf" target="_blank" rel="noopener noreferrer">
+    View PDF
+  </a>
+</section>
+
+<section>
+<h4>DAILY CUBA ROAMING REPORT</h4><br>
+This daily report is done to monitor traffic of our subscribers that are roaming in Cuba 
+Network and making bypass.<br> Since roaming in Cuba Network is so expensive then we should 
+have closely checked it.<br> So we use the below script to check daily calls summary, duration and 
+charge of the calls for distinct number roaming in Cuba and making calls to different high cost 
+destination.<br> Then we calculate the COST, REVENUE and the MARGIN.<br> So the critical point of 
+this report is the MARGIN which is the difference between the REVENUE and the COST (REVENUE – COST).<br> If this value is negative that means the REVENUE was less than the COST, 
+so we have to investigate to see if the calls were well charged.<br><br>
+<a href="pdf/DAILY CUBA ROAMING REPORT.pdf" target="_blank" rel="noopener noreferrer">
+    View PDF
+  </a>
+</section>
+
+<section>
+<h4>DAILY BROADSOFT E1 REPORT</h4><br>
+This report is done to monitor all E1s that are part of the broadsoft project in order to 
+prevent any fraudulent activity and bypass by following their usage and checking their 
+diversity.<br><br>
+<a href="pdf/DAILY BROADSOFT E1 REPORT.pdf" target="_blank" rel="noopener noreferrer">
+    View PDF
+  </a>
+</section>
+
+<section>
+<h4>Bypass Onnet Detection With Dealer info</h4><br>
+This is a monthly report sent to sales team where we provide depleted numbers from the 
+past month along with the dealer informations.<br> Newly activated numbers may not have
+informations of dealers.<br><br>
+<a href="pdf/Bypass detection Dealer.pdf" target="_blank" rel="noopener noreferrer">
+    View PDF
+  </a>
+</section>
+
+<section>
+<h4>BP Alert Natcom High Suspicious Numbers</h4><br>
+This is a Daily alert from Natcom for their numbers that we blocked for high suspicious 
+activity.<br> However from their side when they checked the numbers they responded back that 
+the numbers are normal subscribers or here are the bypass ones.<br> Below are the scripts and 
+steps followed to investigate them and take proper action regarding them.<br><br>
+<a href="pdf/BP Alert Natcom High Suspicious Numbers.pdf" target="_blank" rel="noopener noreferrer">
+    View PDF
+  </a>
+</section>
+  
+
+
+    <footer>
+      <p>&copy; 2025 Djimy Francillon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
